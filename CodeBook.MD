@@ -101,3 +101,5 @@ activity and each subject.
 ..*   tidy<-aggregate(xSubject,list(subject=subjectData$subject, activity=yData$aname), mean)
 ..2.  Writes the new data to a .txt file
 ..*   write.table(tidy, "tidydata.txt", sep="\t",row.names = FALSE)
+
+###  Coursera Course - Getting and Cleaning Data
